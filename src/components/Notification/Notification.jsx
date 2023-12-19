@@ -1,10 +1,7 @@
-import css from './notification.module.css'
+import css from './notification.module.css';
 
-const Notification = ({message}) => {
+const Notification = ({ message }) => {
+  return (<p className={css.message}>{message}</p>);
+};
 
-return (
-    <p className={css.message}>{message}</p>
-)
-}
-
-export {Notification};
+export { Notification };

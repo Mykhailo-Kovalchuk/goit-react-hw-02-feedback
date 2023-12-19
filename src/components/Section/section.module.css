@@ -1,11 +1,10 @@
-.section{
-    display: flex;
-    flex-direction: column;
-    width: 650px;
+.section {
+  display: flex;
+  flex-direction: column;
+  width: 650px;
 }
 
-
-.sectionTitle{
-font-weight: 500px;
-margin: 0;
+.sectionTitle {
+  font-weight: 500px;
+  margin: 0;
 }
